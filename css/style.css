@@ -1,0 +1,217 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d3cdcd;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.cabecalho {
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #719bda;
+    width: 100%;
+    height: 50px;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+.cabecalho h1 {
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin-left: 50px;
+    font-size: 24px;
+}
+menu[type="toolbar"] {
+    display: flex;
+    justify-content: center;
+    background-color: #8b6c6c;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 50px;
+    width: 30%;
+    height: 30px;
+}
+menu[type="toolbar"] button {
+    background-color: transparent;
+    border: solid 1px blue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+menu[type="toolbar"] button:hover {
+    text-decoration: underline;
+    background-color: #bb6666;
+}
+.busca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.busca select {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+.busca button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #719bda;
+    color: white;
+    cursor: pointer;
+}
+.busca button:hover {
+    background-color: #bb6666;
+}
+#images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imagens {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #a70808;
+    margin: 5px;
+    display: inline-block;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.usuario{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #a70808;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.usuario input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.usuario button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #719bda;
+    color: white;
+    cursor: pointer;
+}
+.usuario button:hover {
+    background-color: #bb6666;
+}
+.usuario, .tabela-de-usuarios {
+    margin-top: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background: #fff;
+    border-radius: 10px;
+}
+.usuario {
+    width: 350px;
+    min-height: 220px;
+}
+
+.tabela-de-usuarios {
+    width: 400px;
+    min-height: 200px;
+    padding: 20px 0 10px 0;
+}
+.tabela-de-usuarios table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabela-de-usuarios th {
+    background-color: #719bda;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabela-de-usuarios td {
+    background-color: #fff;
+    text-align: center;
+}
+
+.tabela-de-usuarios tr:hover td {
+    background-color: #e3eaff;
+}
+#button2 {
+    display: block;
+    margin: 0 auto 15px auto;
+    padding: 8px 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #719bda;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#button2:hover {
+    background-color: #bb6666;
+}
+.sobre-container {
+    width: 90%;
+    max-width: 700px;
+    min-height: 220px;
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sobre-container h2 {
+    color: #719bda;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.sobre-container p, .sobre-container ul {
+    font-size: 17px;
+    color: #333;
+    line-height: 1.7;
+    margin: 10px;
+}
+
+.sobre-container ul {
+    margin-left: 25px;
+    margin: 18px;
+}
+
+.sobre-container a {
+    color: #719bda;
+    text-decoration: none;
+}
+
+.sobre-container a:hover {
+    text-decoration: underline;
+}
+
+.sobre-container strong {
+    color: #bb6666;
+    font-weight: bold;
+}

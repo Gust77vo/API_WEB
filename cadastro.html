@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/API_WEB/css/style.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>Usuario</h1>
+        <menu type="toolbar">
+            <button><a href="index.html">home</a></button>
+            <button><a href="sobre.html">Sobre o Projeto</a></button>
+        </menu>
+    </div>
+    <div class="usuario">
+        <h2>Criar usuário</h2>
+        <input type="text" id="nomeUsuario" placeholder="Nome do usuário">
+        <input type="text" id="empregoUsuario" placeholder="Emprego">
+        <button id="criar-usuario">Criar usuário</button>
+    </div>
+    <div class="tabela-de-usuarios">
+        <button id="button2">Atualizar Tabela</button>
+        <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Emprego</th> 
+            </tr>
+        </thead>
+        <tbody id="tabela-corpo">
+            
+        </tbody>
+    </table>
+    </div>
+    <script src="JS/JavaScript.js"></script>
+</body>
+</html>
